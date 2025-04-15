@@ -50,7 +50,9 @@ const SignUpScreen = ({navigation}) => {
         <View style={styles.inputsContainer}>
           {/* value, onChangeText */}
           <MyTextInput value={email} onChangeText={text => setEmail(text)} placeholder="Enter E-mail or User Name" />
-       
+          <MyTextInput value={password} onChangeText={text => setPassword(text)} placeholder="Password" secureTextEntry />
+          <MyTextInput value={confirmPassword} onChangeText={text => setConfirmPassword(text)} placeholder="Confirm Password" secureTextEntry />
+
           <MyButton onPress={signUpTestFn} title={'Sign Up'} />
 
           <Text style={styles.orText}>OR</Text>
