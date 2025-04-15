@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "835805676866",
+    "project_id": "upyojannew",
+    "storage_bucket": "upyojannew.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:835805676866:android:f4a52e1f4c9294411974db",
+        "android_client_info": {
+          "package_name": "com.reactnativedream"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFg7cBHLegudADCmPJOMlZR6ZF6vXrJ2k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
